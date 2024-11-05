@@ -2,7 +2,7 @@
 const getHome = (req, res) => {
         try {
             res.status(200).render('home.pug', {
-                name: '--> Nombre creado desde index.js <--',
+                name: '--> Nombre creado desde controllers <--',
             });
         }
         catch (error) {
@@ -14,7 +14,7 @@ const getHome = (req, res) => {
 const getContact = (req, res) => {
     try {
         res.status(200).render('contact.pug', {
-            name: '--> Nombre creado desde index.js <--',
+            name: '--> Nombre creado desde controllers <--',
         });
     }
     catch (error) {
@@ -26,7 +26,7 @@ const getContact = (req, res) => {
 const getLocation = (req, res) => {
     try {
         res.status(200).render('location.pug', {
-            name: '--> Nombre creado desde index.js <--',
+            name: '--> Nombre creado desde controllers <--',
         });
     }
     catch (error) {
@@ -38,7 +38,7 @@ const getLocation = (req, res) => {
 const getMission = (req, res) => {
     try {
         res.status(200).render('mission.pug', {
-            name: '--> Nombre creado desde index.js <--',
+            name: '--> Nombre creado desde controllers <--',
         });
     }
     catch (error) {
