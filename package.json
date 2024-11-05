@@ -15,7 +15,6 @@
       "pug": "^3.0.3"
     },
     "devDependencies": {
-      "morgan": "^1.10.0",
       "nodemon": "^3.1.7"
     }
   }
